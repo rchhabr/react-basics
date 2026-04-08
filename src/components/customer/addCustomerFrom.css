@@ -1,0 +1,39 @@
+.customers-container {
+  padding: 20px;
+}
+
+.customer-form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.customer-form input {
+  padding: 8px;
+  width: 200px;
+}
+
+.customer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.customer-row {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.customer-id,
+.customer-name,
+.customer-email {
+  width: 150px;
+  padding: 8px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 5px rgba(255, 0, 0, 0.5);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
